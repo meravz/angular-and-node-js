@@ -1,0 +1,14 @@
+<form>
+  <label>
+    <input [(ngModel)]='contactModel.name' placeholder="FirstName" name='name'>
+  </label>
+  <label>
+    <input [(ngModel)]='contactModel.email' placeholder="Email" name='email'>
+  </label>
+  <label>
+    <input [(ngModel)]='contactModel.phone' placeholder="Phone" name='phone'>
+  </label>
+  <label>
+    <button (click)='contact()' >Send</button>
+  </label>
+</form>

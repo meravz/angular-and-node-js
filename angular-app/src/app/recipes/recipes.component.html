@@ -1,0 +1,13 @@
+<form>
+  <label>
+    <input [(ngModel)]='recipeModel.name' placeholder="Name" name='name'>
+  </label>
+  <label>
+    <input [(ngModel)]='recipeModel.instruct' placeholder="Instruct" name='instruct'>
+  </label>
+  <label>
+    <button (click)='recipes()' >Add</button>
+  </label>
+</form>
+
+<app-recipes-list></app-recipes-list>
